@@ -1,0 +1,81 @@
+@media only screen and (min-width: 600px) {
+.cardwidth{
+width: 20%;
+}
+}
+@media only screen and (max-width: 600px) {
+  .cardwidth{
+  width: 80%;
+  }
+  }
+.btn-red {
+      background-color: #900000;
+      background-image: linear-gradient(#b23737, #a03232);
+
+    }
+
+    .btn-green {
+      background-color: #6e9000;
+      background-image: linear-gradient(#83b237, #3da032);
+
+    }
+
+    .btn-gold {
+      background: rgb(187, 187, 0);
+      background: linear-gradient(0deg, rgba(187, 187, 0, 1) 0%, rgba(221, 221, 0, 1) 100%);
+
+    }
+    .btn-blue {
+      background-color: RGB(0,0,187);
+      background-image: linear-gradient(RGB(0,0,187),RGB(0,0,221));
+
+    }
+    .btn-spec {
+      border: none;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+      cursor: pointer;
+      font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 100%;
+      margin: 0px;
+      outline: 0;
+      padding: 8px 10px;
+      text-align: center;
+      transition: box-shadow .05s ease-in-out, opacity .05s ease-in-out;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      color: rgb(240, 240, 240);
+    }
+
+    .btn-spec:hover {
+      box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+      text-decoration: none;
+      color: white;
+      transition-duration: .15s, .15s;
+    }
+
+    .btn-spec:active {
+      box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+      color: white;
+    }
+
+    .btn-spec:disabled {
+      cursor: not-allowed;
+      opacity: .6;
+    }
+
+    .btn-spec:disabled:active {
+      pointer-events: none;
+    }
+
+    .btn-spec:disabled:hover {
+      box-shadow: none;
+    }
+    .imageadd{
+      box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+     }
+    .imageadd:hover{
+      box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+    }
